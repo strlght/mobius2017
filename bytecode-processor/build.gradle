@@ -1,0 +1,11 @@
+apply plugin: 'java'
+apply plugin: 'kotlin'
+
+dependencies {
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    compile "org.ow2.asm:asm:5.1"
+    compile "org.ow2.asm:asm-commons:5.1"
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
